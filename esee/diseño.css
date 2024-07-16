@@ -1,0 +1,171 @@
+/* CSS para el encabezado */
+header {
+    background-color: #000000; /* Color de fondo negro */
+    padding: 20px 0;
+    border-bottom: 1px solid #fbfdff;
+    text-align: center; /* Centrar el contenido */
+}
+
+header .container {
+    display: flex;
+    flex-direction: column; /* Para centrar verticalmente */
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff; /* Color de texto blanco */
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center; /* Centrar los enlaces de navegación */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff; /* Color de texto blanco */
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #28a745;
+}
+#first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(247, 241, 241);
+    background-image: 
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url("../imagen/prueba1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87vh;
+}
+#first {
+    font-weight: bold;
+}
+#first h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Estilo para la sección de búsqueda de enfermedades */
+#diseases {
+    padding: 20px;
+    text-align: center; /* Centrar el contenido */
+}
+
+#diseases .search {
+    margin-bottom: 20px;
+}
+
+#diseases .search label {
+    margin-right: 10px;
+}
+
+#diseases .search input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Estilo para la información de las enfermedades */
+#disease-info {
+    margin-top: 20px;
+    text-align: center; /* Centrar el contenido */
+}
+
+#disease-info h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #343a40;
+}
+
+#disease-info h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #495057;
+}
+
+#disease-info ul {
+    margin-bottom: 20px;
+    padding-left: 0; /* Eliminar padding izquierdo */
+    list-style-position: inside; /* Colocar los bullets dentro del margen */
+    display: inline-block; /* Para centrar la lista */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+#disease-info ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+#disease-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-align: center; /* Centrar el contenido */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #535a61;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #29476e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #28a745; 
+}
+

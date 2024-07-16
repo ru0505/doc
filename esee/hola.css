@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+header nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+h1 {
+    color: green;
+}
+
+.treatment h2 {
+    color: darkblue;
+}
